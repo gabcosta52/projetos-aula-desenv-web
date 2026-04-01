@@ -6,7 +6,7 @@ header {
     background-color: #043873;
     height: 92px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -19,6 +19,7 @@ header {
     font-family: Inter, sans-serif;
     font-weight: bold;
     font-size: 28px;
+    margin-left: 220px;
 }
 
 .link {
@@ -29,7 +30,9 @@ header {
 }
 
 .nav-menu {
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-menu ul {
@@ -72,4 +75,5 @@ header {
     background-color: #4F9CF9;
     color: white;
     margin-left: 24px;
+    margin-right: 200px;
 }
