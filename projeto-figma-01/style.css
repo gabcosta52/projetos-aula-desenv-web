@@ -44,7 +44,7 @@ header {
     list-style: none;
 }
 
-.nav-menu-itens {
+.nav-menu ul li {
     display: flex;
     justify-content: center;
     align-items: center;
