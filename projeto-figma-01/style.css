@@ -6,7 +6,7 @@ header {
     background-color: #043873;
     height: 92px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -19,7 +19,6 @@ header {
     font-family: Inter, sans-serif;
     font-weight: bold;
     font-size: 28px;
-    margin-left: 220px;
 }
 
 .link {
@@ -52,28 +51,83 @@ header {
     gap: 10px;
 }
 
-.btn-login {
-    width: 126px;
-    height: 60px;
+.btn {
     font-family: Inter, sans-serif;
     font-weight: lighter;
     font-size: 18px;
     border-radius: 8px;
     border-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#btn-login {
+    width: 126px;
+    height: 60px;
     background-color: #FFE492;
     margin-left: 60px;
 }
 
-.btn-free-trial {
+#btn-criar-conta {
     width: 277px;
     height: 60px;
-    font-family: Inter, sans-serif;
-    font-weight: lighter;
-    font-size: 18px;
-    border-radius: 8px;
-    border-color: transparent;
     background-color: #4F9CF9;
     color: white;
     margin-left: 24px;
-    margin-right: 200px;
+}
+
+.hero-section {
+    width: 100%;
+    height: 829px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #043873;
+}
+
+.heading-container {
+    width: 656px;
+    height: 361px;
+    background-color: transparent;
+}
+
+.heading-container h2 {
+    color: white;
+    font-family: Inter, sans-serif, bold;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.heading-container p {
+    color: white;
+    font-family: Inter, sans-serif, lighter;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.heading-container button {
+    width: 219px;
+    height: 63px;
+    background-color: #4F9CF9;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 824px;
+    height: 549px;
+    background-color: #C4DEFD;
+}
+
+.hero-image-container img {
+    width: 424px;
+    height: 249px;
+    object-fit: cover;
 }
